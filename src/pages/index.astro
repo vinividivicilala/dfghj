@@ -1,0 +1,24 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🧑‍🚀 Coming Soon: PointLinePlane.XYZ</h1>
+			<p>
+				Welcome to PointLinePlane, plpxyz for short. I’m Brandon, for over 20 years I've been a developer, designer, and technology educator. You'll see content here discussing UX Engineering, Design Systems, DesignOps, career advice, working with clients and stakeholders, and development considerations from freelance projects to enterprise organizations - with a handful of dad-jokes and mild-takes added to the mix. 
+			</p>
+			
+		</main>
+		<Footer />
+	</body>
+</html>
